@@ -1,0 +1,20 @@
+# Python and local editor files
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+.vscode/
+.idea/
+
+# Credentials and local settings
+.env
+.env.*
+*.pem
+*.key
+
+# Fabric captures and reports may contain private topology data
+off_*.json
+*.tgz
+*.tar.gz
+*.log
+*-report.txt
