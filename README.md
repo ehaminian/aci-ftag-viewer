@@ -1,11 +1,11 @@
-# Cisco ACI FTAG Viewer
+# Cisco ACI FTAG Viewer for new versions
 
-**Reconstruct and inspect Cisco ACI FTAG forwarding trees directly from the APIC CLI.**
+**ACI FTAG tree viewer for inspecting Cisco ACI multicast forwarding trees from the APIC CLI or offline captures.**
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-`aci-ftag-viewer` reads Cisco ACI managed objects, correlates FTAG, IS-IS, and LLDP information, and displays a human-readable **switch hierarchy**, the **interfaces at both ends of each fabric link**, and **per-pod reachability findings**.
+`aci-ftag-viewer` is a Python tool for Cisco Application Centric Infrastructure (ACI) FTAG tree visualization and troubleshooting. It reads Cisco ACI managed objects, correlates FTAG, IS-IS, and LLDP information, and displays a human-readable **switch hierarchy**, the **interfaces at both ends of each fabric link**, and **per-pod reachability findings**.
 
 > **Read-only:** All live fabric data is retrieved using APIC-local `icurl` GET requests. The tool does not change fabric configuration.
 
